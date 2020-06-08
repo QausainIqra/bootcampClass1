@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: bootcamp2020_class1
+name: bootcamp2020class1
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -31,4 +31,4 @@ jobs:
     - name: installing surge
       run: npm install-g surge
     - name: deploying
-      run: surge ./ bootcamp_class1_test.surge.sh --token ${{secrets.surge_token}}
+      run: surge ./ bootcamp_class1_test.surge.sh --token${{secrets.surge_token}}
